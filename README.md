@@ -1,2 +1,115 @@
-# Javascript-Mastery
-A compilation of definitions and examples of the most important and useful Javascript things.
+> ---
+> # This is currently a Work In Progress
+> ### Please feel free to send me corrections and things to add if you want.
+> ---
+
+# A Javascript Mastery Pocket Book
+
+A source of definitions and examples to get solid foundations knowledge and become a Senior Software Engineer.
+
+> ## Index
+
+#### BRIEF INTRO
+
+[Things you must know]
+
+- Language definition
+- Javascript and ECMAScript
+- Versions highlights through time
+
+---
+
+#### BASICS
+
+[Strong foundations | Part One]
+
+- Data Types
+- Primitives
+- Non Primitives
+
+---
+
+#### EVALUATE COMPLEXITY:
+
+- Execution Context
+- Call Stack
+- Lexical Environment
+- Hoisting
+- Closures
+
+---
+
+#### USEFUL AND COMMON METHODS
+
+[Strong foundations | Part One]
+
+#### On Strings
+
+- .toString (ES5)
+
+#### On Arrays
+
+- .map()
+- .includes()
+
+#### On Objects
+
+### Categorize...
+
+- toLowerCase()
+- toUpperCase()
+- Number()
+- isNaN()
+- Object.fromEntries()
+- Object.fromValues()
+- typeof - type of
+- Object.keys(obj)
+- Object.getOwnPropertyNames(obj)
+- Object.getOwnPropertySymbols(obj)
+- Object.hasOwnProperty()
+- Object.size()
+- Statements VS Expressions
+- for
+- for...in
+- for...of
+- Template strings
+- .forEach()
+- String and Array .length
+- If statements
+- functions
+- arrow functions
+- class
+- prototype
+
+### Javascript and ECMAScript
+
+###### About ECMA
+
+**EMCA International** is a nonprofit standards organization for information and communication systems.
+**ECMA** stands for _European Computer Manufacturers Association_ and was founded in 1961 to standarize computer systems in Europe. It changed it's name to **ECMA International** in 1994.
+
+###### About ECMA-262
+
+This is a standard published by **ECMA International** and contains the specification for a general purpose scripting language. We could think of **ECMA-262** as _ECMAScript's reference number_.
+
+ECMAScript is a programming language that falls into the category of Scripting Language by **_what it does_**.
+
+###### A Scripting Language
+
+Is intended to only manipulate an external entity.
+Basically, it needs an actor. An example could be a dog receiving a _sit_ order. You can tell it what to do, you don't perform the actual action.
+You make the order, the part that you don't control is the brain of the dog, who interprets the order and takes the corresponding associated action in the dog's body.
+
+###### About ECMAScript
+
+ECMAScript is an object-oriented programming language originally designed to be used as a scripting language. This means that you can use it to manipulate, customize and automate the facilities of an **existing entity or system**.
+ECMAScript is now a fully featured general-purpose programming language. Meaning that is now used both in frontend and backend. [Link to the specification details](https://tc39.es/ecma262/#sec-overview).
+
+Note that since Javascript is a general purpose scripting language that conforms to the ECMAScript specification, is a good idea to understand a bit about this spec.
+
+###### About Javascript
+
+###### KEY DIFFERENCES
+
+By reading the **ECMAScript Specification** you will learn _how to create a scripting language_.
+On the other half, reading the **Javascript Documentation** you learn _how to use a scripting language_
