@@ -7,11 +7,34 @@
 
 A source of definitions and examples to get solid foundations knowledge and become a Senior Software Engineer.
 
-> ## Index
+### Disclaimer
 
-#### BRIEF INTRO
+This is not intended to be a course or a full list of methods or so.
+Take this as a guide to test yourself about concepts you should have at least a surface understanding.
 
-[Things you must know]
+You will face yourself to be the most honest version of you:
+
+- Understand where you are.
+- Take notice what you need to know.
+- Make a plan to get better by building solid foundations.
+- As a rule of thumb: Consistency with low intensity is the key to avoid burnout.
+- Practice and teach whatever you want to internalize, normally there's no other way.
+
+## Index
+
+### BRIEF INTRO
+
+###### [AKA: Things you must know]
+
+- Javascript and ECMAScript
+- What's ECMA
+- About ECMA-262 specification
+- A scripting language?
+- About ECMAScript
+- About Javascript
+- Understand the key differences
+- Javascript engine
+- Javascript runtime
 
 - Language definition
 - Javascript and ECMAScript
@@ -19,9 +42,9 @@ A source of definitions and examples to get solid foundations knowledge and beco
 
 ---
 
-#### BASICS
+### BASICS
 
-[Strong foundations | Part One]
+###### [AKA: Strong foundations | Part One]
 
 - Data Types
 - Primitives
@@ -85,7 +108,7 @@ A source of definitions and examples to get solid foundations knowledge and beco
 
 ###### About ECMA
 
-**EMCA International** is a nonprofit standards organization for information and communication systems.
+**ECMA International** is a nonprofit standards organization for information and communication systems.
 **ECMA** stands for _European Computer Manufacturers Association_ and was founded in 1961 to standarize computer systems in Europe. It changed it's name to **ECMA International** in 1994.
 
 ###### About ECMA-262
@@ -112,7 +135,7 @@ Note that since Javascript is a general purpose scripting language that conforms
 We could say that Javascript is technically a dialect of the ECMAScript language. A dialect derives most of it's lexicon and syntax from it's parent language, but deviates enough to deserver distinction.
 Javascript mostly implements the ECMAScript specification as described in ECMA-262, but there are some differences.
 
-###### KEY DIFFERENCES
+###### Time for Key Differences
 
 By reading the **ECMAScript Specification** you will learn _how to create a scripting language_.
 On the other half, reading the **Javascript Documentation** you learn _how to use a scripting language_
