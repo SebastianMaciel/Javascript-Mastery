@@ -109,7 +109,20 @@ Note that since Javascript is a general purpose scripting language that conforms
 
 ###### About Javascript
 
+We could say that Javascript is technically a dialect of the ECMAScript language. A dialect derives most of it's lexicon and syntax from it's parent language, but deviates enough to deserver distinction.
+Javascript mostly implements the ECMAScript specification as described in ECMA-262, but there are some differences.
+
 ###### KEY DIFFERENCES
 
 By reading the **ECMAScript Specification** you will learn _how to create a scripting language_.
 On the other half, reading the **Javascript Documentation** you learn _how to use a scripting language_
+
+###### Javascript Engine
+
+A program or interpreter that understands and executes JavaScript code. These engines are commonly found in web browsers.
+Google Chrome has it's V8 JavaScript Engine. SpiderMonkey in Mozilla Firefox and Chakra in Microsoft Edge. Each engine is like a language module for each browser, allowing them to support a certain subset of the JavaScript language.
+A word on browser performance: some JavaScript engines are implemented in a most efficient way than others, this translates in fastest execution of the JavaScript code.
+
+Be aware that browser engines actually implements a particular ECMAScript version. It's each companies engine developers that has to update their engines to the latests specifications of EMCAScript. This updates generally goes incrementally.
+
+###### Javascript Runtime
