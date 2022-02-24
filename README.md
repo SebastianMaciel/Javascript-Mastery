@@ -15,7 +15,7 @@ Take this as a guide to test yourself about concepts you should have at least a 
 You will face yourself to be the most honest version of you:
 
 - Understand where you are.
-- Take notice what you need to know.
+- Take note on what you need to know.
 - Make a plan to get better by building solid foundations.
 - As a rule of thumb: Consistency with low intensity is the key to avoid burnout.
 - Practice and teach whatever you want to internalize, normally there's no other way.
@@ -36,9 +36,7 @@ You will face yourself to be the most honest version of you:
 - Javascript engine
 - Javascript runtime
 
-- Language definition
-- Javascript and ECMAScript
-- Versions highlights through time
+- TODO: Versions highlights through time
 
 ---
 
@@ -106,18 +104,18 @@ You will face yourself to be the most honest version of you:
 
 ### Javascript and ECMAScript
 
-###### About ECMA
+###### What's ECMA
 
 **ECMA International** is a nonprofit standards organization for information and communication systems.
 **ECMA** stands for _European Computer Manufacturers Association_ and was founded in 1961 to standarize computer systems in Europe. It changed it's name to **ECMA International** in 1994.
 
-###### About ECMA-262
+###### About ECMA-262 specification
 
 This is a standard published by **ECMA International** and contains the specification for a general purpose scripting language. We could think of **ECMA-262** as _ECMAScript's reference number_.
 
 ECMAScript is a programming language that falls into the category of Scripting Language by **_what it does_**.
 
-###### A Scripting Language
+###### A scripting language?
 
 Is intended to only manipulate an external entity.
 Basically, it needs an actor. An example could be a dog receiving a _sit_ order. You can tell it what to do, you don't perform the actual action.
@@ -135,12 +133,12 @@ Note that since Javascript is a general purpose scripting language that conforms
 We could say that Javascript is technically a dialect of the ECMAScript language. A dialect derives most of it's lexicon and syntax from it's parent language, but deviates enough to deserver distinction.
 Javascript mostly implements the ECMAScript specification as described in ECMA-262, but there are some differences.
 
-###### Time for Key Differences
+###### Understand the key differences
 
 By reading the **ECMAScript Specification** you will learn _how to create a scripting language_.
 On the other half, reading the **Javascript Documentation** you learn _how to use a scripting language_
 
-###### Javascript Engine
+###### Javascript engine
 
 A program or interpreter that understands and executes JavaScript code. These engines are commonly found in web browsers.
 Google Chrome has it's V8 JavaScript Engine. SpiderMonkey in Mozilla Firefox and Chakra in Microsoft Edge. Each engine is like a language module for each browser, allowing them to support a certain subset of the JavaScript language.
@@ -148,4 +146,4 @@ A word on browser performance: some JavaScript engines are implemented in a most
 
 Be aware that browser engines actually implements a particular ECMAScript version. It's each companies engine developers that has to update their engines to the latests specifications of EMCAScript. This updates generally goes incrementally.
 
-###### Javascript Runtime
+###### Javascript runtime
